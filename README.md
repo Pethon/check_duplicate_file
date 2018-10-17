@@ -5,3 +5,9 @@
 #-dir ディレクトリ名
 #-n ファイルの数
 ```
+
+実行できない場合は
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+Y を入力してEnterを押す．
