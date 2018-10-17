@@ -6,6 +6,8 @@ param (
 
 $num = $num + 1
 $t = $type.split(' ')
+$t += '.txt'
+echo $t
 
 echo ''
 echo 'DUPLICATED FILE'
