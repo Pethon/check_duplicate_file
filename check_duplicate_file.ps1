@@ -1,8 +1,8 @@
 param (
 	[string]$dir = $( Read-Host "Input directory (ex. C:\kadai\)" ),
+	[int]$std = $( Read-Host "Input student number (ex. 138)" ),
 	[int]$num = $( Read-Host "Input file number (ex. 1)" ),
-	[string]$type = $( Read-Host "Input file type (ex. .pdf,.doc,.docx)" ),
-	[int]$std = $( Read-Host "Input student number (ex. 138)" )
+	[string]$type = $( Read-Host "Input file type (ex. .pdf,.doc,.docx)" )
 )
 
 $num = $num + 1
